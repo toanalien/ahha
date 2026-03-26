@@ -1,4 +1,4 @@
-# shoutrrr
+# ahha
 
 Notification library for Node.js. Send messages to Slack, Discord, Telegram, Email, and more through URL-based configuration.
 
@@ -17,7 +17,7 @@ Inspired by [Shoutrrr](https://github.com/containrrr/shoutrrr) (Go) and [Apprise
 ## Install
 
 ```bash
-npm install shoutrrr
+npm install ahha
 ```
 
 Requires Node.js 18+.
@@ -25,7 +25,7 @@ Requires Node.js 18+.
 ## Quick Start
 
 ```typescript
-import { send, createSender } from 'shoutrrr';
+import { send, createSender } from 'ahha';
 
 // One-liner: send via a single service
 await send('ntfy://my-alerts@ntfy.sh', 'Deployment complete!');
@@ -140,7 +140,7 @@ await send('ntfy://my-topic@ntfy.example.com', 'Hello!');
 ## Custom Services
 
 ```typescript
-import { registerService, send } from 'shoutrrr';
+import { registerService, send } from 'ahha';
 
 registerService({
   scheme: 'my-service',
