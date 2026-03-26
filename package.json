@@ -1,6 +1,6 @@
 {
   "name": "@toanalien/ahha",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Notification library for Node.js. Send messages to Slack, Discord, Telegram, Email, and more through URL-based configuration.",
   "type": "module",
   "main": "./dist/index.cjs",
