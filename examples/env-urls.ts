@@ -5,7 +5,7 @@
  * Usage:
  *   NOTIFY_URLS="slack://xoxb:token@channel,ntfy://alerts" npx tsx examples/env-urls.ts
  */
-import { createSender } from 'ahha';
+import { createSender } from '@toanalien/ahha';
 
 // URLs from env var, comma-separated
 const urlString = process.env.NOTIFY_URLS;

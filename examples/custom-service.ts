@@ -3,8 +3,8 @@
  *
  * Usage: npx tsx examples/custom-service.ts
  */
-import { registerService, send } from 'ahha';
-import type { ParsedUrl, Service, SendResult } from 'ahha';
+import { registerService, send } from '@toanalien/ahha';
+import type { ParsedUrl, Service, SendResult } from '@toanalien/ahha';
 
 // Register a custom service for your internal API
 registerService({

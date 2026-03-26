@@ -6,7 +6,7 @@
  * Note: Uses direct TLS connection (port 465).
  * Gmail requires an App Password: https://myaccount.google.com/apppasswords
  */
-import { send } from 'ahha';
+import { send } from '@toanalien/ahha';
 
 const user = 'you@gmail.com';
 const pass = 'your-app-password';

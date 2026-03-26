@@ -17,7 +17,7 @@ Inspired by [Shoutrrr](https://github.com/containrrr/shoutrrr) (Go) and [Apprise
 ## Install
 
 ```bash
-npm install ahha
+npm install @toanalien/ahha
 ```
 
 Requires Node.js 18+.
@@ -25,7 +25,7 @@ Requires Node.js 18+.
 ## Quick Start
 
 ```typescript
-import { send, createSender } from 'ahha';
+import { send, createSender } from '@toanalien/ahha';
 
 // One-liner: send via a single service
 await send('ntfy://my-alerts@ntfy.sh', 'Deployment complete!');
@@ -140,7 +140,7 @@ await send('ntfy://my-topic@ntfy.example.com', 'Hello!');
 ## Custom Services
 
 ```typescript
-import { registerService, send } from 'ahha';
+import { registerService, send } from '@toanalien/ahha';
 
 registerService({
   scheme: 'my-service',

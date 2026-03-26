@@ -4,7 +4,7 @@
  *
  * Usage: npx tsx examples/round-robin.ts
  */
-import { createSender } from 'ahha';
+import { createSender } from '@toanalien/ahha';
 
 const sender = createSender([
   'ntfy://channel-1@ntfy.sh',

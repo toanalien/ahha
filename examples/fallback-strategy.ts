@@ -4,7 +4,7 @@
  *
  * Usage: npx tsx examples/fallback-strategy.ts
  */
-import { createSender } from 'ahha';
+import { createSender } from '@toanalien/ahha';
 
 // Primary: Slack, Fallback: Ntfy
 const sender = createSender([

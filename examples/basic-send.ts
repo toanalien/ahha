@@ -3,7 +3,7 @@
  *
  * Usage: npx tsx examples/basic-send.ts
  */
-import { send } from 'ahha';
+import { send } from '@toanalien/ahha';
 
 // Send to Ntfy (simplest service - no auth needed for public topics)
 const result = await send('ntfy://my-alerts', 'Server deployment complete!');

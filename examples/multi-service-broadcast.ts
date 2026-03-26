@@ -3,7 +3,7 @@
  *
  * Usage: npx tsx examples/multi-service-broadcast.ts
  */
-import { createSender } from 'ahha';
+import { createSender } from '@toanalien/ahha';
 
 // Configure services via URL strings (can come from env vars)
 const sender = createSender([

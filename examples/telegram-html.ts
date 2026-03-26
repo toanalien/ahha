@@ -3,7 +3,7 @@
  *
  * Usage: npx tsx examples/telegram-html.ts
  */
-import { send } from 'ahha';
+import { send } from '@toanalien/ahha';
 
 const botToken = '123456:ABC-DEF-your-token';
 const chatId = '-1001234567890';
