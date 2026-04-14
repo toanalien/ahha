@@ -4,6 +4,7 @@ Notification library for Node.js. Send messages to Slack, Discord, Telegram, Ema
 
 Inspired by [Shoutrrr](https://github.com/containrrr/shoutrrr) (Go) and [Apprise](https://github.com/caronc/apprise) (Python).
 
+![](./banner-01.png)
 ## Features
 
 - **URL-based configuration** -- configure services with a single URL string
